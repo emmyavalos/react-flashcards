@@ -20,8 +20,11 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
         </div>
-        <h1>Welcome to Flashcards</h1>
+        <h1>Welcome to React Flashcards</h1>
+        <br></br>
         <NewCardForm addCardForm={this.addCardHome}/>
+        <br></br>
+        <br></br>
         {this.state.cards.map( item => {
           return(
             <CardComponent key={item.question} card={item} />

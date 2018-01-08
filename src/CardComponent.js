@@ -14,7 +14,7 @@ toggleCard = () => {
       //Show back of card
       return(
         <div onClick={this.toggleCard} style={styles.cardBack}>
-        <h5 style={styles.cardBackText}>{card.answer}</h5>
+          <h5 style={styles.cardBackText}>{card.answer}</h5>
         </div>
       )
     } else {
@@ -30,7 +30,7 @@ toggleCard = () => {
 
 const styles = {
   cardFront: {
-    marginLeft: 500,
+    marginLeft: 670,
     alignContent: 'center',
     textAlign: 'center',
     backgroundColor: 'lightblue',
@@ -38,7 +38,7 @@ const styles = {
     height: 200,
   },
   cardBack: {
-    marginLeft: 950,
+    marginLeft: 1000,
     backgroundColor: 'blue',
     width: 150,
     height: 200
